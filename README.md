@@ -1,2 +1,2 @@
-# pySigma-backend-directory
-Directory of pySigma backends
+# pySigma-plugin-directory
+Directory of pySigma backend, processing pipeline and validator projects.
