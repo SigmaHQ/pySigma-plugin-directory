@@ -41,7 +41,8 @@ types:
 Each of these sections is another map that maps an identifier to the plugin specification:
 
 ```json
-"plugin-identifier": {
+"UUID": {
+    "id": "plugin-identifier",
     "description": "xxx backend converting into yyy queries ...",
     "package": "pySigma-backend-...",
     "state": "stable",
@@ -49,11 +50,15 @@ Each of these sections is another map that maps an identifier to the plugin spec
 }
 ```
 
-* *plugin-identifier* is a short identifier that can be used by other tools to refer to plugins for installation etc. It
+* *UUID* is a [RFC 4122](https://www.rfc-editor.org/rfc/rfc4122)-compliant unique identifier that is used as primary key
+  for identification and reference of plugins. This UUID is intended to be used internally by tools to keep a link
+  between local usage and the plugin directory. User interfaces should use the more user-friendly *id* identifier
+  described below.
+* *id* is a short identifier that can be used by other tools to refer to plugins for installation etc. It
   should be as short as possible and ideally only contain the target system name, e.g. `splunk`. In cases where multiple
-  implementations of a plugin for the same backend exist, all additional backends must be prepended with a
-  publisher prefix: *publisher-target*. The first existing plugin keeps its short name to guarantee that no dangling
-  references are caused by renaming.
+  implementations of a plugin for the same backend exist, all backend identifiers are extended by a publisher or
+  maintainer identifier: *target-publisher*. Because the identifier can change in the life of a plugin it shouldn't be
+  used to refer to it technically. The plugin UUID is intended for this purpose.
 * *description* is a short description of the plugin that should include the full name of the target system, most
   important output formats and other useful information. It should fit into not more than 120 characters, such that it
   should be possible to display it in one line in many working conditions.
