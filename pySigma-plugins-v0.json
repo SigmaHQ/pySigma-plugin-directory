@@ -1,8 +1,81 @@
 {
+    "note": "This is a preliminary version of the pySigma plugin directory. It will be replaced soon with a version 1. Don't use this for productive purposes!",
     "backends": {
+        "splunk": {
+            "description": "Splunk backend for conversion into SPL and tstats data model queries as plain queries and savedsearches.conf",
+            "package": "pysigma-backend-splunk",
+            "state": "stable",
+            "pysigma-version": "~=0.8.1"
+        },
+        "insightidr": {
+            "description": "Rapid7 InsightIDR backend that generates LEQL queries.",
+            "package": "pysigma-backend-insightidr",
+            "state": "stable",
+            "pysigma-version": "~=0.8.1"
+        },
+        "qradar": {
+            "description": "IBM QRadar backend for conversion into AQL and extension packages.",
+            "package": "pysigma-backend-qradar",
+            "state": "stable",
+            "pysigma-version": "~=0.8.1"
+        },
+        "elasticsearch": {
+            "description": "Elasticsearch backend converting into Lucene queries, plain, embedded into DSL or as Kibana NDJSON.",
+            "package": "pysigma-backend-elasticsearch",
+            "state": "stable",
+            "pysigma-version": "~=0.8.0"
+        },
+        "opensearch": {
+            "description": "Opensearch backend converting into Lucene queries and Opensearch alerting rules.",
+            "package": "pysigma-backend-opensearch",
+            "state": "stable",
+            "pysigma-version": "~=0.8.1"
+        },
+        "ala": {
+            "description": "Azure Log Analytics backend with Windows log support maintained by SOC Prime.",
+            "package": "git+https://github.com/socprime/pySigma-backend-ala.git",
+            "state": "devel",
+            "pysigma-version": "~=0.6.0"
+        },
+        "azure": {
+            "description": "Azure Log Analytics backend with Windows log support maintained by @sifex.",
+            "package": "git+https://github.com/sifex/pySigma-backend-azure.git",
+            "state": "devel",
+            "pysigma-version": "~=0.8.10"
+        },
+        "stix": {
+            "description": "STIX backend converting into plain STIX queries. Contains mappings for STIX 2.0 and STIX Shifter taxonomies.",
+            "package": "git+https://github.com/barvhaim/pySigma-backend-stix",
+            "state": "devel",
+            "pysigma-version": "~=0.8.10"
+        }
     },
     "pipelines": {
+        "windows": {
+            "description": "Windows logsource mappings.",
+            "package": "pysigma-pipeline-windows",
+            "state": "stable",
+            "pysigma-version": "~=0.8.10"
+        },
+        "sysmon": {
+            "description": "Mapping from generic log sources to Sysmon events.",
+            "package": "pysigma-pipeline-sysmon",
+            "state": "stable",
+            "pysigma-version": "~=0.8.1"
+        },
+        "crowdstrike": {
+            "description": "Mapping from generic log sources to CrowdStrike events from raw endpoint logs (FDR, Investigate).",
+            "package": "pysigma-pipeline-crowdstrike",
+            "state": "stable",
+            "pysigma-version": "~=0.8.1"
+        },
+        "ossem": {
+            "description": "Mapping from OSSEM to Sigma taxonomy.",
+            "package": "git+https://github.com/SigmaHQ/pySigma-pipeline-ossem.git",
+            "state": "devel",
+            "pysigma-version": "~=0.8.1"
+        }
     },
     "validators": {
-    },
+    }
 }
