@@ -31,13 +31,13 @@
             "state": "stable",
             "pysigma-version": "~=0.8.1"
         },
-        "ala": {
+        "ala-socprime": {
             "description": "Azure Log Analytics backend with Windows log support maintained by SOC Prime.",
             "package": "git+https://github.com/socprime/pySigma-backend-ala.git",
             "state": "devel",
             "pysigma-version": "~=0.6.0"
         },
-        "azure": {
+        "ala-sifex": {
             "description": "Azure Log Analytics backend with Windows log support maintained by @sifex.",
             "package": "git+https://github.com/sifex/pySigma-backend-azure.git",
             "state": "devel",
@@ -48,6 +48,12 @@
             "package": "git+https://github.com/barvhaim/pySigma-backend-stix",
             "state": "devel",
             "pysigma-version": "~=0.8.10"
+        },
+        "loki": {
+            "description": "Loki backend for conversion into Loki LogQL queries (plain and ruler YAML for alerts) and pipelines with mappings for Grafana and promtail Sysmon data.",
+            "package": "git+https://github.com/grafana/pySigma-backend-loki.git",
+            "state": "stable",
+            "pysigma-version": "~=0.8.9"
         }
     },
     "pipelines": {
