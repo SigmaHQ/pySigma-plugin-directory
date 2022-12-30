@@ -66,6 +66,11 @@ Each of these sections is another map that maps an identifier to the plugin spec
   URLs that contain a Git repository URL with a branch specifier. A PyPI package should be preferred because plugins
   only available via Git repositories have certain restricitons that can make the integration of a plugin into a script
   impossible.
+* *project-url* is a URL to a project package. If the plugin source code is hosted on GitHub it is a good choice for
+  this attribute.
+* *report-issue-url* is a URL for reporting issues for the plugin. For projects hosted on GitHub or similar platforms
+  this should be the link to the issue creation page of the project. Another possibility is a [`mailto:`
+  URL](https://www.rfc-editor.org/rfc/rfc2368) with an e-mail address, subject etc.
 * *state* describes the state of the plugin:
   * `stable` if the plugin is in a working state.
   * `testing` if the plugin is working but might have some issues because it is not yet finished.

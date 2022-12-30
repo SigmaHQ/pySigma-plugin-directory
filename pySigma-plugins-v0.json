@@ -5,6 +5,8 @@
             "id": "splunk",
             "description": "Splunk backend for conversion into SPL and tstats data model queries as plain queries and savedsearches.conf",
             "package": "pysigma-backend-splunk",
+            "project-url": "https://github.com/SigmaHQ/pySigma-backend-splunk",
+            "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-splunk/issues/new",
             "state": "stable",
             "pysigma-version": "~=0.8.1"
         },
@@ -12,6 +14,8 @@
             "id": "insightidr",
             "description": "Rapid7 InsightIDR backend that generates LEQL queries.",
             "package": "pysigma-backend-insightidr",
+            "project-url": "https://github.com/SigmaHQ/pySigma-backend-insightidr",
+            "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-insightidr/issues/new",
             "state": "stable",
             "pysigma-version": "~=0.8.1"
         },
@@ -19,6 +23,8 @@
             "id": "qradar",
             "description": "IBM QRadar backend for conversion into AQL and extension packages.",
             "package": "pysigma-backend-qradar",
+            "project-url": "https://github.com/nNipsx-Sec/pySigma-backend-qradar",
+            "report-issue-url": "https://github.com/nNipsx-Sec/pySigma-backend-qradar/issues/new",
             "state": "stable",
             "pysigma-version": "~=0.8.1"
         },
@@ -26,6 +32,8 @@
             "id": "elasticsearch",
             "description": "Elasticsearch backend converting into Lucene queries, plain, embedded into DSL or as Kibana NDJSON.",
             "package": "pysigma-backend-elasticsearch",
+            "project-url": "https://github.com/SigmaHQ/pySigma-backend-elasticsearch",
+            "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-elasticsearch/issues/new",
             "state": "stable",
             "pysigma-version": "~=0.8.0"
         },
@@ -33,6 +41,8 @@
             "id": "opensearch",
             "description": "Opensearch backend converting into Lucene queries and Opensearch alerting rules.",
             "package": "pysigma-backend-opensearch",
+            "project-url": "https://github.com/SigmaHQ/pySigma-backend-opensearch",
+            "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-opensearch/issues/new",
             "state": "stable",
             "pysigma-version": "~=0.8.1"
         },
@@ -40,6 +50,8 @@
             "id": "ala-socprime",
             "description": "Azure Log Analytics backend with Windows log support maintained by SOC Prime.",
             "package": "git+https://github.com/socprime/pySigma-backend-ala.git",
+            "project-url": "https://github.com/socprime/pySigma-backend-ala",
+            "report-issue-url": "https://github.com/socprime/pySigma-backend-ala/issues/new",
             "state": "devel",
             "pysigma-version": "~=0.6.0"
         },
@@ -47,6 +59,8 @@
             "id": "ala-sifex",
             "description": "Azure Log Analytics backend with Windows log support maintained by @sifex.",
             "package": "git+https://github.com/sifex/pySigma-backend-azure.git",
+            "project-url": "https://github.com/sifex/pySigma-backend-azure",
+            "report-issue-url": "https://github.com/sifex/pySigma-backend-azure/issues/new",
             "state": "devel",
             "pysigma-version": "~=0.8.10"
         },
@@ -54,6 +68,8 @@
             "id": "stix",
             "description": "STIX backend converting into plain STIX queries. Contains mappings for STIX 2.0 and STIX Shifter taxonomies.",
             "package": "git+https://github.com/barvhaim/pySigma-backend-stix",
+            "project-url": "https://github.com/barvhaim/pySigma-backend-stix/",
+            "report-issue-url": "https://github.com/barvhaim/pySigma-backend-stix/issues/new",
             "state": "devel",
             "pysigma-version": "~=0.8.10"
         },
@@ -61,6 +77,8 @@
             "id": "loki",
             "description": "Loki backend for conversion into Loki LogQL queries (plain and ruler YAML for alerts) and pipelines with mappings for Grafana and promtail Sysmon data.",
             "package": "git+https://github.com/grafana/pySigma-backend-loki.git",
+            "project-url": "https://github.com/grafana/pySigma-backend-loki",
+            "report-issue-url": "https://github.com/grafana/pySigma-backend-loki/issues/new",
             "state": "stable",
             "pysigma-version": "~=0.8.9"
         }
@@ -70,6 +88,8 @@
             "id": "windows",
             "description": "Windows logsource mappings.",
             "package": "pysigma-pipeline-windows",
+            "project-url": "https://github.com/SigmaHQ/pySigma-pipeline-windows",
+            "report-issue-url": "https://github.com/SigmaHQ/pySigma-pipeline-windows/issues/new",
             "state": "stable",
             "pysigma-version": "~=0.8.10"
         },
@@ -77,6 +97,8 @@
             "id": "sysmon",
             "description": "Mapping from generic log sources to Sysmon events.",
             "package": "pysigma-pipeline-sysmon",
+            "project-url": "https://github.com/SigmaHQ/pySigma-pipeline-sysmon",
+            "report-issue-url": "https://github.com/SigmaHQ/pySigma-pipeline-sysmon/issues/new",
             "state": "stable",
             "pysigma-version": "~=0.8.1"
         },
@@ -84,6 +106,8 @@
             "id": "crowdstrike",
             "description": "Mapping from generic log sources to CrowdStrike events from raw endpoint logs (FDR, Investigate).",
             "package": "pysigma-pipeline-crowdstrike",
+            "project-url": "https://github.com/SigmaHQ/pySigma-pipeline-crowdstrike",
+            "report-issue-url": "https://github.com/SigmaHQ/pySigma-pipeline-crowdstrike/issues/new",
             "state": "stable",
             "pysigma-version": "~=0.8.1"
         },
@@ -91,6 +115,8 @@
             "id": "ossem",
             "description": "Mapping from OSSEM to Sigma taxonomy.",
             "package": "git+https://github.com/SigmaHQ/pySigma-pipeline-ossem.git",
+            "project-url": "https://github.com/SigmaHQ/pySigma-pipeline-ossem",
+            "report-issue-url": "https://github.com/SigmaHQ/pySigma-pipeline-ossem/issues/new",
             "state": "devel",
             "pysigma-version": "~=0.8.1"
         }
