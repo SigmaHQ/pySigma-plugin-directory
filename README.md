@@ -27,14 +27,16 @@ than few months (pessimistic estimate).
 
 ## Format
 
-The JSON file containing the plugin directory contains a map at its top level that separates into the three plugin
-types:
+The JSON file containing the plugin directory contains a map at its top level that contains two elements:
+
+* *plugins* is a map from UUIDs to plugin descriptions.
+* an optional item *note* that can contain information intended for consumers of the directory, e.g. deprecation notes
+  etc. These should be displayed to the users of such frontend applications.
 
 ```json
 {
-    "backends": { ... },
-    "pipelines": { ... },
-    "validators": { ... }
+    "note": "...",
+    "plugins": { ... },
 }
 ```
 
@@ -45,6 +47,8 @@ Each of these sections is another map that maps an identifier to the plugin spec
     "id": "plugin-identifier",
     "description": "xxx backend converting into yyy queries ...",
     "package": "pySigma-backend-...",
+    "project-url": "https://github.com/SigmaHQ/pySigma-backend-...",
+    "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-.../issues/new",
     "state": "stable",
     "pysigma-version": "^0.8.1"
 }
@@ -59,6 +63,10 @@ Each of these sections is another map that maps an identifier to the plugin spec
   implementations of a plugin for the same backend exist, all backend identifiers are extended by a publisher or
   maintainer identifier: *target-publisher*. Because the identifier can change in the life of a plugin it shouldn't be
   used to refer to it technically. The plugin UUID is intended for this purpose.
+* *type* contains the type of the plugin:
+  * a *backend* plugin might contain the backend itself as well as supporting processing pipelines and validators.
+  * a *pipeline* plugin only contains processing pieplines without a backend.
+  * a *validator* plugin only contains rule validation classes.
 * *description* is a short description of the plugin that should include the full name of the target system, most
   important output formats and other useful information. It should fit into not more than 120 characters, such that it
   should be possible to display it in one line in many working conditions.
@@ -82,9 +90,6 @@ Each of these sections is another map that maps an identifier to the plugin spec
 * *pysigma-version* defines the required pySigma version in [PEP 440 version
   specifier](https://peps.python.org/pep-0440/#version-specifiers). This information can be used by other tools to
   verify compatibility of a plugin with their used version of pySigma.
-
-In addition, the top-level map can contain an optional item *note* that can contain information intended for consumers
-of the directory, e.g. deprecation notes etc. These should be displayed to the users of such frontend applications.
 
 ## Useful Resources
 
