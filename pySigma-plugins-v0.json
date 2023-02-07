@@ -9,7 +9,7 @@
             "project-url": "https://github.com/SigmaHQ/pySigma-backend-splunk",
             "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-splunk/issues/new",
             "state": "stable",
-            "pysigma-version": "~=0.8.1"
+            "pysigma-version": "~=0.9.0"
         },
         "cf14a3da-23c1-408e-90a3-03bf72ea4f0c": {
             "id": "insightidr",
@@ -109,7 +109,7 @@
             "project-url": "https://github.com/SigmaHQ/pySigma-pipeline-sysmon",
             "report-issue-url": "https://github.com/SigmaHQ/pySigma-pipeline-sysmon/issues/new",
             "state": "stable",
-            "pysigma-version": "~=0.8.1"
+            "pysigma-version": "~=0.9.0"
         },
         "373be3fa-ad6d-456b-a7d2-a876d87ad581": {
             "id": "crowdstrike",
