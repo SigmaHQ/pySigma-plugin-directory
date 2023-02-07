@@ -1,5 +1,4 @@
 {
-    "note": "This is a preliminary version of the pySigma plugin directory. It will be replaced soon with a version 1. Don't use this for productive purposes!",
     "plugins": {
         "4af37b53-f1ec-4567-8017-2fb9315397a1": {
             "id": "splunk",

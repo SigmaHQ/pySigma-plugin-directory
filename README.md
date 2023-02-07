@@ -18,12 +18,8 @@ backends with it while you only need few of them.
 
 ## Versioning
 
-The `v0` in the file name refers to the format version like APIs do. Versions from 1 will be always backwards compatible and
+The `v1` in the file name refers to the format version like APIs do. Versions from 1 will be always backwards compatible and
 contain only additions. Breaking changes will increase the version number.
-
-Version 0 has a special role for work in progress until the plugin system is done and working to have some flexibility
-while development. You can use it, but things might break in the initial release. Version 0 shouldn't exist for more
-than few months (pessimistic estimate).
 
 ## Format
 
