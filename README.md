@@ -11,7 +11,7 @@ separate projects and should be if the implemented checks have a special purpose
 
 ## Usage
 
-The directory is contained in `pySigma-plugins-v0.json`. Generation of a human readable directory is planned. Use it for
+The directory is contained in `pySigma-plugins-v1.json`. Generation of a human readable directory is planned. Use it for
 finding the backend you need or for your own Sigma frontend. [Sigma CLI](https://github.com/SigmaHQ/sigma-cli) will use
 it for installation of additional components as plugins instead of being a bloated monolithic project that brings all
 backends with it while you only need few of them.
@@ -41,6 +41,7 @@ Each of these sections is another map that maps an identifier to the plugin spec
 ```json
 "UUID": {
     "id": "plugin-identifier",
+    "type": "backend",
     "description": "xxx backend converting into yyy queries ...",
     "package": "pySigma-backend-...",
     "project-url": "https://github.com/SigmaHQ/pySigma-backend-...",

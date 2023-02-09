@@ -129,6 +129,16 @@
             "report-issue-url": "https://github.com/SigmaHQ/pySigma-pipeline-ossem/issues/new",
             "state": "devel",
             "pysigma-version": "~=0.8.1"
+        },
+        "8f2c9105-0ad4-47b0-b5e0-261feb82e219": {
+            "id": "powershell",
+            "type": "backend",
+            "description": "PowerShell backend converting into PowerShell queries.",
+            "package": "git+https://github.com/cyberphor/pySigma-backend-powershell.git",
+            "project-url": "https://github.com/cyberphor/pySigma-backend-powershell",
+            "report-issue-url": "https://github.com/cyberphor/pySigma-backend-powershell/issues/new",
+            "state": "testing",
+            "pysigma-version": "~=0.9.1"
         }
     }
 }
