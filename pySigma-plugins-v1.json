@@ -93,12 +93,12 @@
         "f2bb108f-d1ec-4e5b-a214-1151ebd99b20": {
             "id": "windows",
             "type": "pipeline",
-            "description": "Windows logsource mappings.",
+            "description": "Windows logsource to Channel field and generic logsource to Windows audit events mapping.",
             "package": "pysigma-pipeline-windows",
             "project-url": "https://github.com/SigmaHQ/pySigma-pipeline-windows",
             "report-issue-url": "https://github.com/SigmaHQ/pySigma-pipeline-windows/issues/new",
             "state": "stable",
-            "pysigma-version": "~=0.8.10"
+            "pysigma-version": "~=0.9.1"
         },
         "7b231e92-bd92-4233-9788-e80be64c2777": {
             "id": "sysmon",
