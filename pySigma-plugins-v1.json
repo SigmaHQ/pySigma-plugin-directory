@@ -139,6 +139,16 @@
             "report-issue-url": "https://github.com/cyberphor/pySigma-backend-powershell/issues/new",
             "state": "testing",
             "pysigma-version": "~=0.9.1"
+        },
+        "0a1787ac-8c5b-4d9b-a76b-277d5362e81e": {
+            "id": "microsoft365defender",
+            "type": "backend",
+            "description": "Microsoft 365 Defender (formally mdatp) backend and pipeline for conversion of log sources with Sysmon field schema to Microsoft Advanced Hunting Queries in Kusto Query Language (KQL)",
+            "package": "git+https://github.com/AttackIQ/pySigma-backend-microsoft365defender.git",
+            "project-url": "https://github.com/AttackIQ/pySigma-backend-microsoft365defender.git",
+            "report-issue-url": "https://github.com/AttackIQ/pySigma-backend-microsoft365defender/issues/new",
+            "state": "testing",
+            "pysigma-version": "~=0.9.0"
         }
     }
 }
