@@ -149,6 +149,16 @@
             "report-issue-url": "https://github.com/AttackIQ/pySigma-backend-microsoft365defender/issues/new",
             "state": "testing",
             "pysigma-version": "~=0.9.0"
-        }
+        },
+	"b00b0a05-3621-4029-b37e-03354842a5a3": {
+            "id": "hawk",
+            "type": "backend",
+            "description": "HAWK.io MDR backend and pipeline for conversion of log sources to HAWK.io BETree queries.",
+            "package": "git+https://github.com/redsand/pySigma-backend-hawk.git",
+            "project-url": "https://github.com/redsand/pySigma-backend-hawk.git",
+            "report-issue-url": "https://github.com/redsand/pySigma-backend-hawk/issues/new",
+            "state": "testing",
+            "pysigma-version": "~=0.9.0"
+	}
     }
 }
