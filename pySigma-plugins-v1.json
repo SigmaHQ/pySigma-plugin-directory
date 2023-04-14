@@ -38,7 +38,7 @@
             "project-url": "https://github.com/SigmaHQ/pySigma-backend-elasticsearch",
             "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-elasticsearch/issues/new",
             "state": "stable",
-            "pysigma-version": "~=0.8.0"
+            "pysigma-version": "~=0.9.6"
         },
         "e6e86698-9ee8-443f-9a22-edd1784c265b": {
             "id": "opensearch",
