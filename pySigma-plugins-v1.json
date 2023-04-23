@@ -78,7 +78,7 @@
             "project-url": "https://github.com/barvhaim/pySigma-backend-stix/",
             "report-issue-url": "https://github.com/barvhaim/pySigma-backend-stix/issues/new",
             "state": "devel",
-            "pysigma-version": "~=0.8.10"
+            "pysigma-version": "~=0.9.5"
         },
         "224e5429-a291-4ca2-b53f-6dbfdee5e96b": {
             "id": "loki",
