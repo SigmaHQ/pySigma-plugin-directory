@@ -4,7 +4,7 @@
             "id": "sentinelone",
             "type": "backend",
             "description": "SentinelOne backend that generates Deep Visibility queries.",
-            "pacakge": "pysigma-backend-sentinelone",
+            "package": "pysigma-backend-sentinelone",
             "project-url": "https://github.com/7RedViolin/pySigma-backend-sentinelone",
             "report-issue-url": "https://github.com/7RedViolin/pySigma-backend-sentinelone/issues/new",
             "state": "stable",
