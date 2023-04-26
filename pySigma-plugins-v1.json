@@ -1,5 +1,15 @@
 {
     "plugins": {
+        "6f294a42-e43e-11ed-b5ea-0242ac120002": {
+            "id": "sentinelone",
+            "type": "backend",
+            "description": "SentinelOne backend that generates Deep Visibility queries.",
+            "package": "pysigma-backend-sentinelone",
+            "project-url": "https://github.com/7RedViolin/pySigma-backend-sentinelone",
+            "report-issue-url": "https://github.com/7RedViolin/pySigma-backend-sentinelone/issues/new",
+            "state": "stable",
+            "pysigma-version": "~=0.9.5"
+        },
         "4af37b53-f1ec-4567-8017-2fb9315397a1": {
             "id": "splunk",
             "type": "backend",
@@ -28,7 +38,7 @@
             "project-url": "https://github.com/nNipsx-Sec/pySigma-backend-qradar",
             "report-issue-url": "https://github.com/nNipsx-Sec/pySigma-backend-qradar/issues/new",
             "state": "stable",
-            "pysigma-version": "~=0.8.1"
+            "pysigma-version": "~=0.9.4"
         },
         "5cb793f1-9719-4ad2-833e-53e06a0da3ab": {
             "id": "elasticsearch",
@@ -38,7 +48,7 @@
             "project-url": "https://github.com/SigmaHQ/pySigma-backend-elasticsearch",
             "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-elasticsearch/issues/new",
             "state": "stable",
-            "pysigma-version": "~=0.8.0"
+            "pysigma-version": "~=0.9.5"
         },
         "e6e86698-9ee8-443f-9a22-edd1784c265b": {
             "id": "opensearch",
@@ -48,7 +58,7 @@
             "project-url": "https://github.com/SigmaHQ/pySigma-backend-opensearch",
             "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-opensearch/issues/new",
             "state": "stable",
-            "pysigma-version": "~=0.8.1"
+            "pysigma-version": "~=0.9.5"
         },
         "737b2daa-a89c-454c-90d4-26587b1a890f": {
             "id": "ala-socprime",
@@ -78,7 +88,7 @@
             "project-url": "https://github.com/barvhaim/pySigma-backend-stix/",
             "report-issue-url": "https://github.com/barvhaim/pySigma-backend-stix/issues/new",
             "state": "devel",
-            "pysigma-version": "~=0.8.10"
+            "pysigma-version": "~=0.9.5"
         },
         "224e5429-a291-4ca2-b53f-6dbfdee5e96b": {
             "id": "loki",
@@ -88,7 +98,7 @@
             "project-url": "https://github.com/grafana/pySigma-backend-loki",
             "report-issue-url": "https://github.com/grafana/pySigma-backend-loki/issues/new",
             "state": "stable",
-            "pysigma-version": "~=0.8.9"
+            "pysigma-version": "~=0.9.0"
         },
         "f2bb108f-d1ec-4e5b-a214-1151ebd99b20": {
             "id": "windows",
@@ -139,6 +149,26 @@
             "report-issue-url": "https://github.com/cyberphor/pySigma-backend-powershell/issues/new",
             "state": "testing",
             "pysigma-version": "~=0.9.1"
+        },
+        "0a1787ac-8c5b-4d9b-a76b-277d5362e81e": {
+            "id": "microsoft365defender",
+            "type": "backend",
+            "description": "Microsoft 365 Defender (formally mdatp) backend and pipeline for conversion of log sources with Sysmon field schema to Microsoft Advanced Hunting Queries in Kusto Query Language (KQL)",
+            "package": "git+https://github.com/AttackIQ/pySigma-backend-microsoft365defender.git",
+            "project-url": "https://github.com/AttackIQ/pySigma-backend-microsoft365defender.git",
+            "report-issue-url": "https://github.com/AttackIQ/pySigma-backend-microsoft365defender/issues/new",
+            "state": "testing",
+            "pysigma-version": "~=0.9.0"
+        },
+        "b00b0a05-3621-4029-b37e-03354842a5a3": {
+            "id": "hawk",
+            "type": "backend",
+            "description": "HAWK.io MDR backend and pipeline for conversion of log sources to HAWK.io BETree queries.",
+            "package": "git+https://github.com/redsand/pySigma-backend-hawk.git",
+            "project-url": "https://github.com/redsand/pySigma-backend-hawk.git",
+            "report-issue-url": "https://github.com/redsand/pySigma-backend-hawk/issues/new",
+            "state": "testing",
+            "pysigma-version": "~=0.9.0"
         }
     }
 }

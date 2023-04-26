@@ -6,7 +6,6 @@ with open("pySigma-plugins-v1.json", "rt") as f:
     directory = f.read()
 
 print("• Parsing JSON")
-def dupli
 parsed = json.loads(directory)
 
 print("• Parsing with pySigma")
