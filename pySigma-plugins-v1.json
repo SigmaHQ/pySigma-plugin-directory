@@ -4,7 +4,7 @@
             "id": "qradar-aql",
             "type": "backend",
             "description": "IBM QRadar backend for conversion into AQL queries. Contains mappings for fields and logsources",
-            "package": "https://github.com/IBM/pySigma-backend-QRadar-aql",
+            "package": "git+https://github.com/IBM/pySigma-backend-QRadar-aql.git",
             "project-url": "https://github.com/IBM/pySigma-backend-QRadar-aql",
             "report-issue-url": "https://github.com/nNipsx-Sec/pySigma-backend-qradar/issues/new",
             "state": "stable",
