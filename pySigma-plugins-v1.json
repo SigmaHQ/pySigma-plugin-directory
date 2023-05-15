@@ -51,14 +51,14 @@
             "pysigma-version": "~=0.8.1"
         },
         "f07b25e1-d066-4369-a9fb-ab3fe59f1dfe": {
-            "id": "qradar-aql",
+            "id": "qradar",
             "type": "backend",
-            "description": "IBM QRadar backend for conversion into AQL queries. Contains mappings for fields and logsources",
-            "package": "https://github.com/IBM/pySigma-backend-QRadar-aql",
-            "project-url": "https://github.com/IBM/pySigma-backend-QRadar-aql",
+            "description": "IBM QRadar backend for conversion into AQL and extension packages.",
+            "package": "pysigma-backend-qradar",
+            "project-url": "https://github.com/nNipsx-Sec/pySigma-backend-qradar",
             "report-issue-url": "https://github.com/nNipsx-Sec/pySigma-backend-qradar/issues/new",
             "state": "stable",
-            "pysigma-version": "~=0.9.8"
+            "pysigma-version": "~=0.9.4"
         },
         "5cb793f1-9719-4ad2-833e-53e06a0da3ab": {
             "id": "elasticsearch",
