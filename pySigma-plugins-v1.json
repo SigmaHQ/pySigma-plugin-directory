@@ -1,7 +1,7 @@
 {
     "plugins": {
         "c29da56a-f2df-11ed-a05b-0242ac120003": {
-            "id": "QRadarAQL",
+            "id": "ibm-qradar-aql",
             "type": "backend",
             "description": "IBM QRadar backend for conversion into AQL queries. Contains mappings for fields and logsources",
             "package": "pysigma-backend-qradar-aql",
