@@ -48,7 +48,7 @@
             "project-url": "https://github.com/SigmaHQ/pySigma-backend-insightidr",
             "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-insightidr/issues/new",
             "state": "stable",
-            "pysigma-version": "~=0.8.1"
+            "pysigma-version": "~=0.9.5"
         },
         "f07b25e1-d066-4369-a9fb-ab3fe59f1dfe": {
             "id": "qradar",
