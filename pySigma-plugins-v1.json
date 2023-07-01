@@ -10,6 +10,16 @@
             "state": "stable",
             "pysigma-version": "~=0.9.8"
         },
+        "f7444f11-f49b-4936-984a-a74f192059de":{
+            "id": "cortexxdr",
+            "type": "backend",
+            "description": "Cortex XDR backend that generates XQL queries.",
+            "package": "pysigma-backend-cortexxdr",
+            "project-url": "https://github.com/7RedViolin/pySigma-backend-cortexxdr",
+            "report-issue-url":"https://github.com/7RedViolin/pySigma-backend-cortexxdr/issues/new",
+            "state": "stable",
+            "pysigma-version": "~=0.9.5"
+        },
         "f0aa1c83-b406-4ff9-8afa-e5d28e55e074":{
             "id": "carbonblack",
             "type": "backend",
