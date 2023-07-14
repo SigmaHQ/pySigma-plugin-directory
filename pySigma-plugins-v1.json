@@ -199,6 +199,16 @@
             "report-issue-url": "https://github.com/redsand/pySigma-backend-hawk/issues/new",
             "state": "testing",
             "pysigma-version": "~=0.9.0"
+        },
+        "49a1a18a-224a-11ee-be56-0242ac120002": {
+            "id": "datadog",
+            "type": "backend",
+            "description": "Datadog Cloud SIEM backend and pipeline for conversion of log sources to Datadog Query Syntax",
+            "package": "git+https://github.com/DataDog/pysigma-backend-datadog.git",
+            "project-url": "https://github.com/DataDog/pysigma-backend-datadog.git",
+            "report-issue-url": "https://github.com/DataDog/pysigma-backend-datadog/issues/new",
+            "state": "testing",
+            "pysigma-version": "~=0.9.1"
         }
     }
 }
