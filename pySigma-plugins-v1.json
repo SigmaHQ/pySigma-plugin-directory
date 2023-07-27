@@ -40,6 +40,16 @@
             "state": "stable",
             "pysigma-version": "~=0.9.5"
         },
+        "4f57aff1-1144-46d7-b593-21f1d86c358f": {
+            "id": "sentinelone-pq",
+            "type": "backend",
+            "description": "SentinelOne backend that generates PowerQuery queries.",
+            "package": "pysigma-backend-sentinelone-pq",
+            "project-url": "https://github.com/7RedViolin/pySigma-backend-sentinelone-pq",
+            "report-issue-url": "https://github.com/7RedViolin/pySigma-backend-sentinelone-pq/issues/new",
+            "state": "stable",
+            "pysigma-version": "~=0.9.5"
+        },
         "4af37b53-f1ec-4567-8017-2fb9315397a1": {
             "id": "splunk",
             "type": "backend",
