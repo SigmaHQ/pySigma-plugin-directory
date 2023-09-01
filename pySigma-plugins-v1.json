@@ -214,7 +214,7 @@
             "id": "datadog",
             "type": "backend",
             "description": "Datadog Cloud SIEM backend and pipeline for conversion of log sources to Datadog Query Syntax",
-            "package": "git+https://github.com/DataDog/pysigma-backend-datadog.git",
+            "package": "pysigma-backend-datadog",
             "project-url": "https://github.com/DataDog/pysigma-backend-datadog.git",
             "report-issue-url": "https://github.com/DataDog/pysigma-backend-datadog/issues/new",
             "state": "testing",
