@@ -219,6 +219,16 @@
             "report-issue-url": "https://github.com/DataDog/pysigma-backend-datadog/issues/new",
             "state": "testing",
             "pysigma-version": "~=0.10.3"
+        },
+        "ec5311a2-914e-4745-b622-fddcc9d2af4a" : {
+            "id": "dictquery",
+            "type": "backend",
+            "description": "DictQuery backend to convert sigma to dictquery query strings",
+            "package": "pysigma-backend-dictquery",
+            "project-url": "https://github.com/unqork-external/pySigma-backend-dictquery.git",
+            "report-issue-url": "https://github.com/unqork-external/pySigma-backend-dictquery/issues/new",
+            "state": "stable",
+            "pysigma-version": "~=0.9.6"
         }
     }
 }
