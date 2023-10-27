@@ -229,6 +229,16 @@
             "report-issue-url": "https://github.com/unqork-external/pySigma-backend-dictquery/issues/new",
             "state": "stable",
             "pysigma-version": "~=0.9.6"
+        },
+        "23ae33fc-b666-411d-aea7-9f40d1f6a189" : {
+            "id": "sqlite",
+            "type": "backend",
+            "description": "SQLite and Zircolite backend",
+            "package": "pysigma-backend-sqlite",
+            "project-url": "https://github.com/SigmaHQ/pySigma-backend-sqlite",
+            "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-sqlite/issues/new",
+            "state": "testing",
+            "pysigma-version": "~=0.10.2"
         }
     }
 }
