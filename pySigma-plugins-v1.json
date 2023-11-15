@@ -239,6 +239,16 @@
             "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-sqlite/issues/new",
             "state": "testing",
             "pysigma-version": "~=0.10.2"
+        },
+        "4083d306-59da-4d3e-a989-850d818932f7" : {
+            "id": "uberagent",
+            "type": "backend",
+            "description": "uberAgent backend",
+            "package": "pysigma-backend-uberagent",
+            "project-url": "https://github.com/vastlimits/pySigma-backend-uberAgent/",
+            "report-issue-url": "https://github.com/vastlimits/pySigma-backend-uberAgent/issues/new",
+            "state": "stable",
+            "pysigma-version": "~=0.10.2"
         }
     }
 }
