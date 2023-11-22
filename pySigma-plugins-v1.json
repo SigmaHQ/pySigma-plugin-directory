@@ -8,7 +8,7 @@
             "project-url": "https://github.com/IBM/pySigma-backend-QRadar-aql",
             "report-issue-url": "https://github.com/IBM/pySigma-backend-QRadar-aql/issues/new",
             "state": "stable",
-            "pysigma-version": "~=0.9.8"
+            "pysigma-version": "~=0.10.3"
         },
         "f7444f11-f49b-4936-984a-a74f192059de":{
             "id": "cortexxdr",
