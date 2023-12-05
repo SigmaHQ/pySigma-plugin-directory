@@ -249,6 +249,16 @@
             "report-issue-url": "https://github.com/vastlimits/pySigma-backend-uberAgent/issues/new",
             "state": "stable",
             "pysigma-version": "~=0.10.2"
+        },
+        "3ec39928-13e7-47fe-baa9-9800351a2e4d" : {
+            "id": "panther_sdyaml",
+            "type": "backend",
+            "description": "Panther sdyaml backend",
+            "package": "git+https://github.com/panther-labs/pySigma-backend-panther-sdyaml.git",
+            "project-url": "https://github.com/panther-labs/pySigma-backend-panther-sdyaml.git",
+            "report-issue-url": "https://github.com/panther-labs/pySigma-backend-panther-sdyaml/issues/new",
+            "state": "devel",
+            "pysigma-version": "~=0.10.6"
         }
     }
 }
