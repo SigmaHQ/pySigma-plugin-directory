@@ -110,16 +110,6 @@
             "state": "devel",
             "pysigma-version": "~=0.6.0"
         },
-        "a3af1e87-b913-4c16-ad8e-bcb22c140c08": {
-            "id": "ala-sifex",
-            "type": "backend",
-            "description": "Azure Log Analytics backend with Windows log support maintained by @sifex.",
-            "package": "git+https://github.com/sifex/pySigma-backend-azure.git",
-            "project-url": "https://github.com/sifex/pySigma-backend-azure",
-            "report-issue-url": "https://github.com/sifex/pySigma-backend-azure/issues/new",
-            "state": "devel",
-            "pysigma-version": "~=0.9.6"
-        },
         "0bcae3dd-a8fc-4c81-b0ea-203d6176d3de": {
             "id": "stix",
             "type": "backend",
