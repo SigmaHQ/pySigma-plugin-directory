@@ -84,6 +84,12 @@ Each of these sections is another map that maps an identifier to the plugin spec
     shouldn't be displayed to users in user interfaces.
   * `orphaned` is a state that described that the plugin is not maintained anymore. Such plugins shouldn't normally
     be displayed to the users.
+* *capabilities* describes the capabilities implemented by the backend:
+  * *event_count_correlation_conversion*: backend supports conversion of event count correlation rules.
+  * *value_count_correlation_conversion*: backend supports conversion of value count correlation rules.
+  * *temporal_correlation_conversion*: backend supports conversion of temporal correlation rules.
+  * *ordered_temporal_correlation_conversion*: backend supports conversion of ordered temporal correlation rules.
+
 * *pysigma-version* defines the required pySigma version in [PEP 440 version
   specifier](https://peps.python.org/pep-0440/#version-specifiers). This information can be used by other tools to
   verify compatibility of a plugin with their used version of pySigma.
