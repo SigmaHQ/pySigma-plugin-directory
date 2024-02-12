@@ -28,7 +28,7 @@
             "project-url": "https://github.com/7RedViolin/pySigma-backend-carbonblack",
             "report-issue-url":"https://github.com/7RedViolin/pySigma-backend-carbonblack/issues/new",
             "state": "stable",
-            "pysigma-version": "~=0.9.5"
+            "pysigma-version": "~=0.9.6"
         },
         "6f294a42-e43e-11ed-b5ea-0242ac120002": {
             "id": "sentinelone",
@@ -73,7 +73,7 @@
             "project-url": "https://github.com/SigmaHQ/pySigma-backend-insightidr",
             "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-insightidr/issues/new",
             "state": "stable",
-            "pysigma-version": "~=0.10.3"
+            "pysigma-version": "~=0.10.1"
         },
         "f07b25e1-d066-4369-a9fb-ab3fe59f1dfe": {
             "id": "qradar",
@@ -93,7 +93,7 @@
             "project-url": "https://github.com/SigmaHQ/pySigma-backend-elasticsearch",
             "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-elasticsearch/issues/new",
             "state": "stable",
-            "pysigma-version": "~=0.10.3"
+            "pysigma-version": "~=0.11.2"
         },
         "e6e86698-9ee8-443f-9a22-edd1784c265b": {
             "id": "opensearch",
@@ -103,7 +103,7 @@
             "project-url": "https://github.com/SigmaHQ/pySigma-backend-opensearch",
             "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-opensearch/issues/new",
             "state": "stable",
-            "pysigma-version": "~=0.10.3"
+            "pysigma-version": "~=0.10.2"
         },
         "737b2daa-a89c-454c-90d4-26587b1a890f": {
             "id": "ala-socprime",
@@ -133,7 +133,7 @@
             "project-url": "https://github.com/grafana/pySigma-backend-loki",
             "report-issue-url": "https://github.com/grafana/pySigma-backend-loki/issues/new",
             "state": "stable",
-            "pysigma-version": "~=0.10.4"
+            "pysigma-version": "~=0.11.3"
         },
         "f2bb108f-d1ec-4e5b-a214-1151ebd99b20": {
             "id": "windows",
@@ -143,7 +143,7 @@
             "project-url": "https://github.com/SigmaHQ/pySigma-pipeline-windows",
             "report-issue-url": "https://github.com/SigmaHQ/pySigma-pipeline-windows/issues/new",
             "state": "stable",
-            "pysigma-version": "~=0.10.3"
+            "pysigma-version": "~=0.11"
         },
         "7b231e92-bd92-4233-9788-e80be64c2777": {
             "id": "sysmon",
@@ -153,7 +153,7 @@
             "project-url": "https://github.com/SigmaHQ/pySigma-pipeline-sysmon",
             "report-issue-url": "https://github.com/SigmaHQ/pySigma-pipeline-sysmon/issues/new",
             "state": "stable",
-            "pysigma-version": "~=0.10.3"
+            "pysigma-version": "~=0.11"
         },
         "373be3fa-ad6d-456b-a7d2-a876d87ad581": {
             "id": "crowdstrike",
@@ -163,7 +163,7 @@
             "project-url": "https://github.com/SigmaHQ/pySigma-pipeline-crowdstrike",
             "report-issue-url": "https://github.com/SigmaHQ/pySigma-pipeline-crowdstrike/issues/new",
             "state": "stable",
-            "pysigma-version": "~=0.10.3"
+            "pysigma-version": "~=0.11.3"
         },
         "28c68c9f-9162-4b33-97c9-ea4a14dc93d9": {
             "id": "ossem",
@@ -183,14 +183,14 @@
             "project-url": "https://github.com/cyberphor/pySigma-backend-powershell",
             "report-issue-url": "https://github.com/cyberphor/pySigma-backend-powershell/issues/new",
             "state": "testing",
-            "pysigma-version": "~=0.10.3"
+            "pysigma-version": "~=0.10.1"
         },
         "0a1787ac-8c5b-4d9b-a76b-277d5362e81e": {
             "id": "microsoft365defender",
             "type": "backend",
             "description": "Microsoft 365 Defender (formally mdatp) backend and pipeline for conversion of log sources with Sysmon field schema to Microsoft Advanced Hunting Queries in Kusto Query Language (KQL)",
             "package": "git+https://github.com/AttackIQ/pySigma-backend-microsoft365defender.git",
-            "project-url": "https://github.com/AttackIQ/pySigma-backend-microsoft365defender.git",
+            "project-url": "https://github.com/AttackIQ/pySigma-backend-microsoft365defender",
             "report-issue-url": "https://github.com/AttackIQ/pySigma-backend-microsoft365defender/issues/new",
             "state": "stable",
             "pysigma-version": ">=0.9.0"
@@ -200,30 +200,30 @@
             "type": "backend",
             "description": "HAWK.io MDR backend and pipeline for conversion of log sources to HAWK.io BETree queries.",
             "package": "git+https://github.com/redsand/pySigma-backend-hawk.git",
-            "project-url": "https://github.com/redsand/pySigma-backend-hawk.git",
+            "project-url": "https://github.com/redsand/pySigma-backend-hawk",
             "report-issue-url": "https://github.com/redsand/pySigma-backend-hawk/issues/new",
             "state": "testing",
-            "pysigma-version": "~=0.9.0"
+            "pysigma-version": "~=0.9.5"
         },
         "49a1a18a-224a-11ee-be56-0242ac120002": {
             "id": "datadog",
             "type": "backend",
             "description": "Datadog Cloud SIEM backend and pipeline for conversion of log sources to Datadog Query Syntax",
             "package": "pysigma-backend-datadog",
-            "project-url": "https://github.com/DataDog/pysigma-backend-datadog.git",
+            "project-url": "https://github.com/DataDog/pysigma-backend-datadog",
             "report-issue-url": "https://github.com/DataDog/pysigma-backend-datadog/issues/new",
             "state": "testing",
-            "pysigma-version": "~=0.10.3"
+            "pysigma-version": "~=0.9.10"
         },
         "ec5311a2-914e-4745-b622-fddcc9d2af4a" : {
             "id": "dictquery",
             "type": "backend",
             "description": "DictQuery backend to convert sigma to dictquery query strings",
             "package": "pysigma-backend-dictquery",
-            "project-url": "https://github.com/unqork-external/pySigma-backend-dictquery.git",
+            "project-url": "https://github.com/unqork-external/pySigma-backend-dictquery",
             "report-issue-url": "https://github.com/unqork-external/pySigma-backend-dictquery/issues/new",
             "state": "stable",
-            "pysigma-version": "~=0.9.6"
+            "pysigma-version": "~=0.10.5"
         },
         "23ae33fc-b666-411d-aea7-9f40d1f6a189" : {
             "id": "sqlite",
@@ -233,7 +233,7 @@
             "project-url": "https://github.com/SigmaHQ/pySigma-backend-sqlite",
             "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-sqlite/issues/new",
             "state": "testing",
-            "pysigma-version": "~=0.10.2"
+            "pysigma-version": "~=0.11"
         },
         "4083d306-59da-4d3e-a989-850d818932f7" : {
             "id": "uberagent",
@@ -243,17 +243,17 @@
             "project-url": "https://github.com/vastlimits/pySigma-backend-uberAgent/",
             "report-issue-url": "https://github.com/vastlimits/pySigma-backend-uberAgent/issues/new",
             "state": "stable",
-            "pysigma-version": "~=0.10.2"
+            "pysigma-version": "~=0.11.2"
         },
         "3ec39928-13e7-47fe-baa9-9800351a2e4d" : {
             "id": "panther_sdyaml",
             "type": "backend",
             "description": "Panther sdyaml backend",
             "package": "git+https://github.com/panther-labs/pySigma-backend-panther-sdyaml.git",
-            "project-url": "https://github.com/panther-labs/pySigma-backend-panther-sdyaml.git",
+            "project-url": "https://github.com/panther-labs/pySigma-backend-panther-sdyaml",
             "report-issue-url": "https://github.com/panther-labs/pySigma-backend-panther-sdyaml/issues/new",
             "state": "devel",
-            "pysigma-version": "~=0.10.6"
+            "pysigma-version": "~=0.10"
         }
     }
 }
