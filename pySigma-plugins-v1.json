@@ -10,6 +10,16 @@
             "state": "stable",
             "pysigma-version": "~=0.10.3"
         },
+        "5f9a6987-3f39-4b6b-abd8-60aaee9c7021":{
+            "id": "rclinuxedr",
+            "type": "pipeline",
+            "description": "Red Canary LinuxEDR pipeline that converts fields to Telemetry Search mapping.",
+            "package": "pysigma-backend-rclinuxedr",
+            "project-url": "https://github.com/7RedViolin/pySigma-backend-rclinuxedr",
+            "report-issue-url":"https://github.com/7RedViolin/pySigma-backend-rclinuxedr/issues/new",
+            "state": "stable",
+            "pysigma-version": ">=0.11.4"
+        },
         "f7444f11-f49b-4936-984a-a74f192059de":{
             "id": "cortexxdr",
             "type": "backend",
