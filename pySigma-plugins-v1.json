@@ -98,12 +98,17 @@
         "5cb793f1-9719-4ad2-833e-53e06a0da3ab": {
             "id": "elasticsearch",
             "type": "backend",
-            "description": "Elasticsearch backend converting into Lucene queries, plain, embedded into DSL or as Kibana NDJSON.",
+            "description": "Elasticsearch backend converting into Lucene, ES|QL (with correlations) and EQL queries, plain, embedded into DSL or as Kibana NDJSON.",
             "package": "pysigma-backend-elasticsearch",
             "project-url": "https://github.com/SigmaHQ/pySigma-backend-elasticsearch",
             "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-elasticsearch/issues/new",
             "state": "stable",
-            "pysigma-version": "~=0.11.2"
+            "capabilities": [
+                "event_count_correlation_conversion",
+                "value_count_correlation_conversion",
+                "temporal_correlation_conversion"
+            ],
+            "pysigma-version": "~=0.11.3"
         },
         "e6e86698-9ee8-443f-9a22-edd1784c265b": {
             "id": "opensearch",
