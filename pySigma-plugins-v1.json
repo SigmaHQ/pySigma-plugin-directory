@@ -1,269 +1,269 @@
 {
-  "plugins": {
-    "c29da56a-f2df-11ed-a05b-0242ac120003": {
-      "id": "ibm-qradar-aql",
-      "type": "backend",
-      "description": "IBM QRadar backend for conversion into AQL queries. Contains mappings for fields and logsources",
-      "package": "pysigma-backend-qradar-aql",
-      "project-url": "https://github.com/IBM/pySigma-backend-QRadar-aql",
-      "report-issue-url": "https://github.com/IBM/pySigma-backend-QRadar-aql/issues/new",
-      "state": "stable",
-      "pysigma-version": "~=0.10.3"
-    },
-    "f7444f11-f49b-4936-984a-a74f192059de": {
-      "id": "cortexxdr",
-      "type": "backend",
-      "description": "Cortex XDR backend that generates XQL queries.",
-      "package": "pysigma-backend-cortexxdr",
-      "project-url": "https://github.com/7RedViolin/pySigma-backend-cortexxdr",
-      "report-issue-url": "https://github.com/7RedViolin/pySigma-backend-cortexxdr/issues/new",
-      "state": "stable",
-      "pysigma-version": ">=0.9.8"
-    },
-    "f0aa1c83-b406-4ff9-8afa-e5d28e55e074": {
-      "id": "carbonblack",
-      "type": "backend",
-      "description": "Carbon Black backend that supports queries for both Enterprise EDR (fka Threat Hunter) and EDR (fka Response)",
-      "package": "pysigma-backend-carbonblack",
-      "project-url": "https://github.com/7RedViolin/pySigma-backend-carbonblack",
-      "report-issue-url": "https://github.com/7RedViolin/pySigma-backend-carbonblack/issues/new",
-      "state": "stable",
-      "pysigma-version": ">=0.9.6"
-    },
-    "6f294a42-e43e-11ed-b5ea-0242ac120002": {
-      "id": "sentinelone",
-      "type": "backend",
-      "description": "SentinelOne backend that generates Deep Visibility queries.",
-      "package": "pysigma-backend-sentinelone",
-      "project-url": "https://github.com/7RedViolin/pySigma-backend-sentinelone",
-      "report-issue-url": "https://github.com/7RedViolin/pySigma-backend-sentinelone/issues/new",
-      "state": "stable",
-      "pysigma-version": ">=0.9.5"
-    },
-    "4f57aff1-1144-46d7-b593-21f1d86c358f": {
-      "id": "sentinelone-pq",
-      "type": "backend",
-      "description": "SentinelOne backend that generates PowerQuery queries.",
-      "package": "pysigma-backend-sentinelone-pq",
-      "project-url": "https://github.com/7RedViolin/pySigma-backend-sentinelone-pq",
-      "report-issue-url": "https://github.com/7RedViolin/pySigma-backend-sentinelone-pq/issues/new",
-      "state": "stable",
-      "pysigma-version": ">=0.9.5"
-    },
-    "4af37b53-f1ec-4567-8017-2fb9315397a1": {
-      "id": "splunk",
-      "type": "backend",
-      "description": "Splunk backend for conversion into SPL and tstats data model queries as plain queries and savedsearches.conf",
-      "package": "pysigma-backend-splunk",
-      "project-url": "https://github.com/SigmaHQ/pySigma-backend-splunk",
-      "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-splunk/issues/new",
-      "state": "stable",
-      "capabilities": [
-        "event_count_correlation_conversion",
-        "value_count_correlation_conversion",
-        "temporal_correlation_conversion"
-      ],
-      "pysigma-version": "~=0.11.1"
-    },
-    "cf14a3da-23c1-408e-90a3-03bf72ea4f0c": {
-      "id": "insightidr",
-      "type": "backend",
-      "description": "Rapid7 InsightIDR backend that generates LEQL queries.",
-      "package": "pysigma-backend-insightidr",
-      "project-url": "https://github.com/SigmaHQ/pySigma-backend-insightidr",
-      "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-insightidr/issues/new",
-      "state": "stable",
-      "pysigma-version": "~=0.10.1"
-    },
-    "f07b25e1-d066-4369-a9fb-ab3fe59f1dfe": {
-      "id": "qradar",
-      "type": "backend",
-      "description": "IBM QRadar backend for conversion into AQL and extension packages.",
-      "package": "pysigma-backend-qradar",
-      "project-url": "https://github.com/nNipsx-Sec/pySigma-backend-qradar",
-      "report-issue-url": "https://github.com/nNipsx-Sec/pySigma-backend-qradar/issues/new",
-      "state": "stable",
-      "pysigma-version": "~=0.9.4"
-    },
-    "5cb793f1-9719-4ad2-833e-53e06a0da3ab": {
-      "id": "elasticsearch",
-      "type": "backend",
-      "description": "Elasticsearch backend converting into Lucene queries, plain, embedded into DSL or as Kibana NDJSON.",
-      "package": "pysigma-backend-elasticsearch",
-      "project-url": "https://github.com/SigmaHQ/pySigma-backend-elasticsearch",
-      "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-elasticsearch/issues/new",
-      "state": "stable",
-      "pysigma-version": "~=0.11.2"
-    },
-    "e6e86698-9ee8-443f-9a22-edd1784c265b": {
-      "id": "opensearch",
-      "type": "backend",
-      "description": "Opensearch backend converting into Lucene queries and Opensearch alerting rules.",
-      "package": "pysigma-backend-opensearch",
-      "project-url": "https://github.com/SigmaHQ/pySigma-backend-opensearch",
-      "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-opensearch/issues/new",
-      "state": "stable",
-      "pysigma-version": "~=0.10.2"
-    },
-    "737b2daa-a89c-454c-90d4-26587b1a890f": {
-      "id": "ala-socprime",
-      "type": "backend",
-      "description": "Azure Log Analytics backend with Windows log support maintained by SOC Prime.",
-      "package": "git+https://github.com/socprime/pySigma-backend-ala.git",
-      "project-url": "https://github.com/socprime/pySigma-backend-ala",
-      "report-issue-url": "https://github.com/socprime/pySigma-backend-ala/issues/new",
-      "state": "devel",
-      "pysigma-version": "~=0.6.0"
-    },
-    "0bcae3dd-a8fc-4c81-b0ea-203d6176d3de": {
-      "id": "stix",
-      "type": "backend",
-      "description": "STIX backend converting into plain STIX queries. Contains mappings for STIX 2.0 and STIX Shifter taxonomies.",
-      "package": "git+https://github.com/barvhaim/pySigma-backend-stix",
-      "project-url": "https://github.com/barvhaim/pySigma-backend-stix/",
-      "report-issue-url": "https://github.com/barvhaim/pySigma-backend-stix/issues/new",
-      "state": "devel",
-      "pysigma-version": "~=0.9.5"
-    },
-    "224e5429-a291-4ca2-b53f-6dbfdee5e96b": {
-      "id": "loki",
-      "type": "backend",
-      "description": "Loki backend for conversion into Loki LogQL queries (plain and ruler YAML for alerts) and pipelines with mappings for Grafana and promtail Sysmon data.",
-      "package": "git+https://github.com/grafana/pySigma-backend-loki.git",
-      "project-url": "https://github.com/grafana/pySigma-backend-loki",
-      "report-issue-url": "https://github.com/grafana/pySigma-backend-loki/issues/new",
-      "state": "stable",
-      "pysigma-version": "~=0.11.3"
-    },
-    "f2bb108f-d1ec-4e5b-a214-1151ebd99b20": {
-      "id": "windows",
-      "type": "pipeline",
-      "description": "Windows logsource to Channel field and generic logsource to Windows audit events mapping.",
-      "package": "pysigma-pipeline-windows",
-      "project-url": "https://github.com/SigmaHQ/pySigma-pipeline-windows",
-      "report-issue-url": "https://github.com/SigmaHQ/pySigma-pipeline-windows/issues/new",
-      "state": "stable",
-      "pysigma-version": "~=0.11"
-    },
-    "7b231e92-bd92-4233-9788-e80be64c2777": {
-      "id": "sysmon",
-      "type": "pipeline",
-      "description": "Mapping from generic log sources to Sysmon events.",
-      "package": "pysigma-pipeline-sysmon",
-      "project-url": "https://github.com/SigmaHQ/pySigma-pipeline-sysmon",
-      "report-issue-url": "https://github.com/SigmaHQ/pySigma-pipeline-sysmon/issues/new",
-      "state": "stable",
-      "pysigma-version": "~=0.11"
-    },
-    "373be3fa-ad6d-456b-a7d2-a876d87ad581": {
-      "id": "crowdstrike",
-      "type": "pipeline",
-      "description": "Mapping from generic log sources to CrowdStrike events from raw endpoint logs (FDR, Investigate).",
-      "package": "pysigma-pipeline-crowdstrike",
-      "project-url": "https://github.com/SigmaHQ/pySigma-pipeline-crowdstrike",
-      "report-issue-url": "https://github.com/SigmaHQ/pySigma-pipeline-crowdstrike/issues/new",
-      "state": "stable",
-      "pysigma-version": "~=0.11.3"
-    },
-    "28c68c9f-9162-4b33-97c9-ea4a14dc93d9": {
-      "id": "ossem",
-      "type": "pipeline",
-      "description": "Mapping from OSSEM to Sigma taxonomy.",
-      "package": "git+https://github.com/SigmaHQ/pySigma-pipeline-ossem.git",
-      "project-url": "https://github.com/SigmaHQ/pySigma-pipeline-ossem",
-      "report-issue-url": "https://github.com/SigmaHQ/pySigma-pipeline-ossem/issues/new",
-      "state": "devel",
-      "pysigma-version": "~=0.8.1"
-    },
-    "8f2c9105-0ad4-47b0-b5e0-261feb82e219": {
-      "id": "powershell",
-      "type": "backend",
-      "description": "PowerShell backend converting into PowerShell queries.",
-      "package": "git+https://github.com/cyberphor/pySigma-backend-powershell.git",
-      "project-url": "https://github.com/cyberphor/pySigma-backend-powershell",
-      "report-issue-url": "https://github.com/cyberphor/pySigma-backend-powershell/issues/new",
-      "state": "testing",
-      "pysigma-version": "~=0.10.1"
-    },
-    "0a1787ac-8c5b-4d9b-a76b-277d5362e81e": {
-      "id": "microsoft365defender",
-      "type": "backend",
-      "description": "Microsoft 365 Defender (formally mdatp) backend and pipeline for conversion of log sources with Sysmon field schema to Microsoft Advanced Hunting Queries in Kusto Query Language (KQL)",
-      "package": "git+https://github.com/AttackIQ/pySigma-backend-microsoft365defender.git",
-      "project-url": "https://github.com/AttackIQ/pySigma-backend-microsoft365defender",
-      "report-issue-url": "https://github.com/AttackIQ/pySigma-backend-microsoft365defender/issues/new",
-      "state": "stable",
-      "pysigma-version": ">=0.9.0"
-    },
-    "b00b0a05-3621-4029-b37e-03354842a5a3": {
-      "id": "hawk",
-      "type": "backend",
-      "description": "HAWK.io MDR backend and pipeline for conversion of log sources to HAWK.io BETree queries.",
-      "package": "git+https://github.com/redsand/pySigma-backend-hawk.git",
-      "project-url": "https://github.com/redsand/pySigma-backend-hawk",
-      "report-issue-url": "https://github.com/redsand/pySigma-backend-hawk/issues/new",
-      "state": "testing",
-      "pysigma-version": "~=0.9.5"
-    },
-    "49a1a18a-224a-11ee-be56-0242ac120002": {
-      "id": "datadog",
-      "type": "backend",
-      "description": "Datadog Cloud SIEM backend and pipeline for conversion of log sources to Datadog Query Syntax",
-      "package": "pysigma-backend-datadog",
-      "project-url": "https://github.com/DataDog/pysigma-backend-datadog",
-      "report-issue-url": "https://github.com/DataDog/pysigma-backend-datadog/issues/new",
-      "state": "testing",
-      "pysigma-version": "~=0.9.10"
-    },
-    "ec5311a2-914e-4745-b622-fddcc9d2af4a": {
-      "id": "dictquery",
-      "type": "backend",
-      "description": "DictQuery backend to convert sigma to dictquery query strings",
-      "package": "pysigma-backend-dictquery",
-      "project-url": "https://github.com/unqork-external/pySigma-backend-dictquery",
-      "report-issue-url": "https://github.com/unqork-external/pySigma-backend-dictquery/issues/new",
-      "state": "stable",
-      "pysigma-version": "~=0.10.5"
-    },
-    "23ae33fc-b666-411d-aea7-9f40d1f6a189": {
-      "id": "sqlite",
-      "type": "backend",
-      "description": "SQLite and Zircolite backend",
-      "package": "pysigma-backend-sqlite",
-      "project-url": "https://github.com/SigmaHQ/pySigma-backend-sqlite",
-      "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-sqlite/issues/new",
-      "state": "testing",
-      "pysigma-version": "~=0.11"
-    },
-    "4083d306-59da-4d3e-a989-850d818932f7": {
-      "id": "uberagent",
-      "type": "backend",
-      "description": "uberAgent backend",
-      "package": "pysigma-backend-uberagent",
-      "project-url": "https://github.com/vastlimits/pySigma-backend-uberAgent/",
-      "report-issue-url": "https://github.com/vastlimits/pySigma-backend-uberAgent/issues/new",
-      "state": "stable",
-      "pysigma-version": "~=0.11.2"
-    },
-    "3ec39928-13e7-47fe-baa9-9800351a2e4d": {
-      "id": "panther_sdyaml",
-      "type": "backend",
-      "description": "Panther sdyaml backend",
-      "package": "git+https://github.com/panther-labs/pySigma-backend-panther-sdyaml.git",
-      "project-url": "https://github.com/panther-labs/pySigma-backend-panther-sdyaml",
-      "report-issue-url": "https://github.com/panther-labs/pySigma-backend-panther-sdyaml/issues/new",
-      "state": "devel",
-      "pysigma-version": "~=0.10"
-    },
-    "961013dd-e94f-426f-81ad-d754bc5720fc": {
-      "id": "trellix_helix",
-      "type": "backend",
-      "description": "Trellix Helix Backend",
-      "package": "pysigma-backend-helix",
-      "project-url": "https://github.com/sawwn23/pySigma-backend-trellix-helix/",
-      "report-issue-url": "https://github.com/sawwn23/pySigma-backend-trellix-helix/issues/new",
-      "state": "devel",
-      "pysigma-version": "~=0.11.2"
+    "plugins": {
+        "c29da56a-f2df-11ed-a05b-0242ac120003": {
+            "id": "ibm-qradar-aql",
+            "type": "backend",
+            "description": "IBM QRadar backend for conversion into AQL queries. Contains mappings for fields and logsources",
+            "package": "pysigma-backend-qradar-aql",
+            "project-url": "https://github.com/IBM/pySigma-backend-QRadar-aql",
+            "report-issue-url": "https://github.com/IBM/pySigma-backend-QRadar-aql/issues/new",
+            "state": "stable",
+            "pysigma-version": "~=0.10.3"
+        },
+        "f7444f11-f49b-4936-984a-a74f192059de": {
+            "id": "cortexxdr",
+            "type": "backend",
+            "description": "Cortex XDR backend that generates XQL queries.",
+            "package": "pysigma-backend-cortexxdr",
+            "project-url": "https://github.com/7RedViolin/pySigma-backend-cortexxdr",
+            "report-issue-url": "https://github.com/7RedViolin/pySigma-backend-cortexxdr/issues/new",
+            "state": "stable",
+            "pysigma-version": ">=0.9.8"
+        },
+        "f0aa1c83-b406-4ff9-8afa-e5d28e55e074": {
+            "id": "carbonblack",
+            "type": "backend",
+            "description": "Carbon Black backend that supports queries for both Enterprise EDR (fka Threat Hunter) and EDR (fka Response)",
+            "package": "pysigma-backend-carbonblack",
+            "project-url": "https://github.com/7RedViolin/pySigma-backend-carbonblack",
+            "report-issue-url": "https://github.com/7RedViolin/pySigma-backend-carbonblack/issues/new",
+            "state": "stable",
+            "pysigma-version": ">=0.9.6"
+        },
+        "6f294a42-e43e-11ed-b5ea-0242ac120002": {
+            "id": "sentinelone",
+            "type": "backend",
+            "description": "SentinelOne backend that generates Deep Visibility queries.",
+            "package": "pysigma-backend-sentinelone",
+            "project-url": "https://github.com/7RedViolin/pySigma-backend-sentinelone",
+            "report-issue-url": "https://github.com/7RedViolin/pySigma-backend-sentinelone/issues/new",
+            "state": "stable",
+            "pysigma-version": ">=0.9.5"
+        },
+        "4f57aff1-1144-46d7-b593-21f1d86c358f": {
+            "id": "sentinelone-pq",
+            "type": "backend",
+            "description": "SentinelOne backend that generates PowerQuery queries.",
+            "package": "pysigma-backend-sentinelone-pq",
+            "project-url": "https://github.com/7RedViolin/pySigma-backend-sentinelone-pq",
+            "report-issue-url": "https://github.com/7RedViolin/pySigma-backend-sentinelone-pq/issues/new",
+            "state": "stable",
+            "pysigma-version": ">=0.9.5"
+        },
+        "4af37b53-f1ec-4567-8017-2fb9315397a1": {
+            "id": "splunk",
+            "type": "backend",
+            "description": "Splunk backend for conversion into SPL and tstats data model queries as plain queries and savedsearches.conf",
+            "package": "pysigma-backend-splunk",
+            "project-url": "https://github.com/SigmaHQ/pySigma-backend-splunk",
+            "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-splunk/issues/new",
+            "state": "stable",
+            "capabilities": [
+                "event_count_correlation_conversion",
+                "value_count_correlation_conversion",
+                "temporal_correlation_conversion"
+            ],
+            "pysigma-version": "~=0.11.1"
+        },
+        "cf14a3da-23c1-408e-90a3-03bf72ea4f0c": {
+            "id": "insightidr",
+            "type": "backend",
+            "description": "Rapid7 InsightIDR backend that generates LEQL queries.",
+            "package": "pysigma-backend-insightidr",
+            "project-url": "https://github.com/SigmaHQ/pySigma-backend-insightidr",
+            "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-insightidr/issues/new",
+            "state": "stable",
+            "pysigma-version": "~=0.10.1"
+        },
+        "f07b25e1-d066-4369-a9fb-ab3fe59f1dfe": {
+            "id": "qradar",
+            "type": "backend",
+            "description": "IBM QRadar backend for conversion into AQL and extension packages.",
+            "package": "pysigma-backend-qradar",
+            "project-url": "https://github.com/nNipsx-Sec/pySigma-backend-qradar",
+            "report-issue-url": "https://github.com/nNipsx-Sec/pySigma-backend-qradar/issues/new",
+            "state": "stable",
+            "pysigma-version": "~=0.9.4"
+        },
+        "5cb793f1-9719-4ad2-833e-53e06a0da3ab": {
+            "id": "elasticsearch",
+            "type": "backend",
+            "description": "Elasticsearch backend converting into Lucene queries, plain, embedded into DSL or as Kibana NDJSON.",
+            "package": "pysigma-backend-elasticsearch",
+            "project-url": "https://github.com/SigmaHQ/pySigma-backend-elasticsearch",
+            "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-elasticsearch/issues/new",
+            "state": "stable",
+            "pysigma-version": "~=0.11.2"
+        },
+        "e6e86698-9ee8-443f-9a22-edd1784c265b": {
+            "id": "opensearch",
+            "type": "backend",
+            "description": "Opensearch backend converting into Lucene queries and Opensearch alerting rules.",
+            "package": "pysigma-backend-opensearch",
+            "project-url": "https://github.com/SigmaHQ/pySigma-backend-opensearch",
+            "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-opensearch/issues/new",
+            "state": "stable",
+            "pysigma-version": "~=0.10.2"
+        },
+        "737b2daa-a89c-454c-90d4-26587b1a890f": {
+            "id": "ala-socprime",
+            "type": "backend",
+            "description": "Azure Log Analytics backend with Windows log support maintained by SOC Prime.",
+            "package": "git+https://github.com/socprime/pySigma-backend-ala.git",
+            "project-url": "https://github.com/socprime/pySigma-backend-ala",
+            "report-issue-url": "https://github.com/socprime/pySigma-backend-ala/issues/new",
+            "state": "devel",
+            "pysigma-version": "~=0.6.0"
+        },
+        "0bcae3dd-a8fc-4c81-b0ea-203d6176d3de": {
+            "id": "stix",
+            "type": "backend",
+            "description": "STIX backend converting into plain STIX queries. Contains mappings for STIX 2.0 and STIX Shifter taxonomies.",
+            "package": "git+https://github.com/barvhaim/pySigma-backend-stix",
+            "project-url": "https://github.com/barvhaim/pySigma-backend-stix/",
+            "report-issue-url": "https://github.com/barvhaim/pySigma-backend-stix/issues/new",
+            "state": "devel",
+            "pysigma-version": "~=0.9.5"
+        },
+        "224e5429-a291-4ca2-b53f-6dbfdee5e96b": {
+            "id": "loki",
+            "type": "backend",
+            "description": "Loki backend for conversion into Loki LogQL queries (plain and ruler YAML for alerts) and pipelines with mappings for Grafana and promtail Sysmon data.",
+            "package": "git+https://github.com/grafana/pySigma-backend-loki.git",
+            "project-url": "https://github.com/grafana/pySigma-backend-loki",
+            "report-issue-url": "https://github.com/grafana/pySigma-backend-loki/issues/new",
+            "state": "stable",
+            "pysigma-version": "~=0.11.3"
+        },
+        "f2bb108f-d1ec-4e5b-a214-1151ebd99b20": {
+            "id": "windows",
+            "type": "pipeline",
+            "description": "Windows logsource to Channel field and generic logsource to Windows audit events mapping.",
+            "package": "pysigma-pipeline-windows",
+            "project-url": "https://github.com/SigmaHQ/pySigma-pipeline-windows",
+            "report-issue-url": "https://github.com/SigmaHQ/pySigma-pipeline-windows/issues/new",
+            "state": "stable",
+            "pysigma-version": "~=0.11"
+        },
+        "7b231e92-bd92-4233-9788-e80be64c2777": {
+            "id": "sysmon",
+            "type": "pipeline",
+            "description": "Mapping from generic log sources to Sysmon events.",
+            "package": "pysigma-pipeline-sysmon",
+            "project-url": "https://github.com/SigmaHQ/pySigma-pipeline-sysmon",
+            "report-issue-url": "https://github.com/SigmaHQ/pySigma-pipeline-sysmon/issues/new",
+            "state": "stable",
+            "pysigma-version": "~=0.11"
+        },
+        "373be3fa-ad6d-456b-a7d2-a876d87ad581": {
+            "id": "crowdstrike",
+            "type": "pipeline",
+            "description": "Mapping from generic log sources to CrowdStrike events from raw endpoint logs (FDR, Investigate).",
+            "package": "pysigma-pipeline-crowdstrike",
+            "project-url": "https://github.com/SigmaHQ/pySigma-pipeline-crowdstrike",
+            "report-issue-url": "https://github.com/SigmaHQ/pySigma-pipeline-crowdstrike/issues/new",
+            "state": "stable",
+            "pysigma-version": "~=0.11.3"
+        },
+        "28c68c9f-9162-4b33-97c9-ea4a14dc93d9": {
+            "id": "ossem",
+            "type": "pipeline",
+            "description": "Mapping from OSSEM to Sigma taxonomy.",
+            "package": "git+https://github.com/SigmaHQ/pySigma-pipeline-ossem.git",
+            "project-url": "https://github.com/SigmaHQ/pySigma-pipeline-ossem",
+            "report-issue-url": "https://github.com/SigmaHQ/pySigma-pipeline-ossem/issues/new",
+            "state": "devel",
+            "pysigma-version": "~=0.8.1"
+        },
+        "8f2c9105-0ad4-47b0-b5e0-261feb82e219": {
+            "id": "powershell",
+            "type": "backend",
+            "description": "PowerShell backend converting into PowerShell queries.",
+            "package": "git+https://github.com/cyberphor/pySigma-backend-powershell.git",
+            "project-url": "https://github.com/cyberphor/pySigma-backend-powershell",
+            "report-issue-url": "https://github.com/cyberphor/pySigma-backend-powershell/issues/new",
+            "state": "testing",
+            "pysigma-version": "~=0.10.1"
+        },
+        "0a1787ac-8c5b-4d9b-a76b-277d5362e81e": {
+            "id": "microsoft365defender",
+            "type": "backend",
+            "description": "Microsoft 365 Defender (formally mdatp) backend and pipeline for conversion of log sources with Sysmon field schema to Microsoft Advanced Hunting Queries in Kusto Query Language (KQL)",
+            "package": "git+https://github.com/AttackIQ/pySigma-backend-microsoft365defender.git",
+            "project-url": "https://github.com/AttackIQ/pySigma-backend-microsoft365defender",
+            "report-issue-url": "https://github.com/AttackIQ/pySigma-backend-microsoft365defender/issues/new",
+            "state": "stable",
+            "pysigma-version": ">=0.9.0"
+        },
+        "b00b0a05-3621-4029-b37e-03354842a5a3": {
+            "id": "hawk",
+            "type": "backend",
+            "description": "HAWK.io MDR backend and pipeline for conversion of log sources to HAWK.io BETree queries.",
+            "package": "git+https://github.com/redsand/pySigma-backend-hawk.git",
+            "project-url": "https://github.com/redsand/pySigma-backend-hawk",
+            "report-issue-url": "https://github.com/redsand/pySigma-backend-hawk/issues/new",
+            "state": "testing",
+            "pysigma-version": "~=0.9.5"
+        },
+        "49a1a18a-224a-11ee-be56-0242ac120002": {
+            "id": "datadog",
+            "type": "backend",
+            "description": "Datadog Cloud SIEM backend and pipeline for conversion of log sources to Datadog Query Syntax",
+            "package": "pysigma-backend-datadog",
+            "project-url": "https://github.com/DataDog/pysigma-backend-datadog",
+            "report-issue-url": "https://github.com/DataDog/pysigma-backend-datadog/issues/new",
+            "state": "testing",
+            "pysigma-version": "~=0.9.10"
+        },
+        "ec5311a2-914e-4745-b622-fddcc9d2af4a": {
+            "id": "dictquery",
+            "type": "backend",
+            "description": "DictQuery backend to convert sigma to dictquery query strings",
+            "package": "pysigma-backend-dictquery",
+            "project-url": "https://github.com/unqork-external/pySigma-backend-dictquery",
+            "report-issue-url": "https://github.com/unqork-external/pySigma-backend-dictquery/issues/new",
+            "state": "stable",
+            "pysigma-version": "~=0.10.5"
+        },
+        "23ae33fc-b666-411d-aea7-9f40d1f6a189": {
+            "id": "sqlite",
+            "type": "backend",
+            "description": "SQLite and Zircolite backend",
+            "package": "pysigma-backend-sqlite",
+            "project-url": "https://github.com/SigmaHQ/pySigma-backend-sqlite",
+            "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-sqlite/issues/new",
+            "state": "testing",
+            "pysigma-version": "~=0.11"
+        },
+        "4083d306-59da-4d3e-a989-850d818932f7": {
+            "id": "uberagent",
+            "type": "backend",
+            "description": "uberAgent backend",
+            "package": "pysigma-backend-uberagent",
+            "project-url": "https://github.com/vastlimits/pySigma-backend-uberAgent/",
+            "report-issue-url": "https://github.com/vastlimits/pySigma-backend-uberAgent/issues/new",
+            "state": "stable",
+            "pysigma-version": "~=0.11.2"
+        },
+        "3ec39928-13e7-47fe-baa9-9800351a2e4d": {
+            "id": "panther_sdyaml",
+            "type": "backend",
+            "description": "Panther sdyaml backend",
+            "package": "git+https://github.com/panther-labs/pySigma-backend-panther-sdyaml.git",
+            "project-url": "https://github.com/panther-labs/pySigma-backend-panther-sdyaml",
+            "report-issue-url": "https://github.com/panther-labs/pySigma-backend-panther-sdyaml/issues/new",
+            "state": "devel",
+            "pysigma-version": "~=0.10"
+        },
+        "961013dd-e94f-426f-81ad-d754bc5720fc": {
+            "id": "trellix_helix",
+            "type": "backend",
+            "description": "Trellix Helix Backend",
+            "package": "pysigma-backend-helix",
+            "project-url": "https://github.com/sawwn23/pySigma-backend-trellix-helix/",
+            "report-issue-url": "https://github.com/sawwn23/pySigma-backend-trellix-helix/issues/new",
+            "state": "devel",
+            "pysigma-version": "~=0.11.2"
+        }
     }
-  }
 }
