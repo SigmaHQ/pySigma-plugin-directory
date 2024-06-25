@@ -279,6 +279,16 @@
             "report-issue-url": "https://github.com/sawwn23/pySigma-backend-trellix-helix/issues/new",
             "state": "devel",
             "pysigma-version": "~=0.11.2"
+        },
+        "3200ecd3-2f32-42ef-90f4-dbe0a66a98e1": {
+            "id": "quickwit",
+            "type": "backend",
+            "description": "Quickwit Backend",
+            "package": "pySigma-backend-quickwit",
+            "project-url": "https://github.com/sifex/pySigma-backend-quickwit/",
+            "report-issue-url": "https://github.com/sifex/pySigma-backend-quickwit/issues/new",
+            "state": "devel",
+            "pysigma-version": "~=0.11.7"
         }
     }
 }
