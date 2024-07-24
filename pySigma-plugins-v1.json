@@ -289,6 +289,16 @@
             "report-issue-url": "https://github.com/sifex/pySigma-backend-quickwit/issues/new",
             "state": "devel",
             "pysigma-version": "~=0.11.7"
+        },
+        "c4f5d614-9c3a-4b88-a669-64e38248f2df": {
+            "id": "netwitness",
+            "type": "backend",
+            "description": "NetWitness Backend that generates application rules",
+            "package": "pySigma-backend-netwitness",
+            "project-url": "https://github.com/marcelkwaschny/pySigma-backend-netwitness/",
+            "report-issue-url": "https://github.com/marcelkwaschny/pySigma-backend-netwitness/issues/new",
+            "state": "testing",
+            "pysigma-version": "~=0.11.9"
         }
     }
 }
