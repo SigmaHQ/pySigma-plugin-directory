@@ -302,6 +302,16 @@
             "report-issue-url": "https://github.com/marcelkwaschny/pySigma-backend-netwitness/issues/new",
             "state": "testing",
             "pysigma-version": "~=0.11.9"
+        },
+        "9d3d8962-5491-4fa2-b835-289c9935946b": {
+            "id": "logpoint",
+            "type": "backend",
+            "description": "Logpoint Pysigma Backend",
+            "package": "pySigma-backend-logpoint",
+            "project-url": "https://github.com/logpoint/pySigma-backend-logpoint",
+            "report-issue-url": "https://github.com/logpoint/pySigma-backend-logpoint/issues/new",
+            "state": "testing",
+            "pysigma-version": "~=0.11.7"
         }
     }
 }
