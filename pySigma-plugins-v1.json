@@ -310,8 +310,8 @@
             "package": "pySigma-backend-logpoint",
             "project-url": "https://github.com/logpoint/pySigma-backend-logpoint",
             "report-issue-url": "https://github.com/logpoint/pySigma-backend-logpoint/issues/new",
-            "state": "testing",
-            "pysigma-version": "~=0.11.7"
+            "state": "stable",
+            "pysigma-version": "~=0.11.13"
         }
     }
 }
