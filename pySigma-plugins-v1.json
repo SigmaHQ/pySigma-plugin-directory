@@ -148,7 +148,11 @@
             "project-url": "https://github.com/grafana/pySigma-backend-loki",
             "report-issue-url": "https://github.com/grafana/pySigma-backend-loki/issues/new",
             "state": "stable",
-            "pysigma-version": "~=0.11.3"
+            "capabilities": [
+                "event_count_correlation_conversion",
+                "value_count_correlation_conversion"
+            ],
+            "pysigma-version": "~=0.11.13"
         },
         "f2bb108f-d1ec-4e5b-a214-1151ebd99b20": {
             "id": "windows",
@@ -279,6 +283,36 @@
             "report-issue-url": "https://github.com/sawwn23/pySigma-backend-trellix-helix/issues/new",
             "state": "devel",
             "pysigma-version": "~=0.11.2"
+        },
+        "3200ecd3-2f32-42ef-90f4-dbe0a66a98e1": {
+            "id": "quickwit",
+            "type": "backend",
+            "description": "Quickwit Backend",
+            "package": "pySigma-backend-quickwit",
+            "project-url": "https://github.com/sifex/pySigma-backend-quickwit/",
+            "report-issue-url": "https://github.com/sifex/pySigma-backend-quickwit/issues/new",
+            "state": "devel",
+            "pysigma-version": "~=0.11.7"
+        },
+        "c4f5d614-9c3a-4b88-a669-64e38248f2df": {
+            "id": "netwitness",
+            "type": "backend",
+            "description": "NetWitness Backend that generates application rules",
+            "package": "pySigma-backend-netwitness",
+            "project-url": "https://github.com/marcelkwaschny/pySigma-backend-netwitness/",
+            "report-issue-url": "https://github.com/marcelkwaschny/pySigma-backend-netwitness/issues/new",
+            "state": "testing",
+            "pysigma-version": "~=0.11.9"
+        },
+        "9d3d8962-5491-4fa2-b835-289c9935946b": {
+            "id": "logpoint",
+            "type": "backend",
+            "description": "Logpoint Pysigma Backend",
+            "package": "pySigma-backend-logpoint",
+            "project-url": "https://github.com/logpoint/pySigma-backend-logpoint",
+            "report-issue-url": "https://github.com/logpoint/pySigma-backend-logpoint/issues/new",
+            "state": "stable",
+            "pysigma-version": "~=0.11.13"
         }
     }
 }
