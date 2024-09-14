@@ -149,9 +149,10 @@
             "report-issue-url": "https://github.com/grafana/pySigma-backend-loki/issues/new",
             "state": "stable",
             "capabilities": [
-                "event_count_correlation_conversion"
+                "event_count_correlation_conversion",
+                "value_count_correlation_conversion"
             ],
-            "pysigma-version": "~=0.11.9"
+            "pysigma-version": "~=0.11.13"
         },
         "f2bb108f-d1ec-4e5b-a214-1151ebd99b20": {
             "id": "windows",
