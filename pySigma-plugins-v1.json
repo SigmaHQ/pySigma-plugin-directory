@@ -172,13 +172,13 @@
         },
         "373be3fa-ad6d-456b-a7d2-a876d87ad581": {
             "id": "crowdstrike",
-            "type": "pipeline",
-            "description": "Mapping from generic log sources to CrowdStrike events from raw endpoint logs (FDR, Investigate).",
-            "package": "pysigma-pipeline-crowdstrike",
-            "project-url": "https://github.com/SigmaHQ/pySigma-pipeline-crowdstrike",
-            "report-issue-url": "https://github.com/SigmaHQ/pySigma-pipeline-crowdstrike/issues/new",
+            "type": "backend",
+            "description": "CrowdStrike Logscale backend and pipelines for CrowdStrike Falcon platform and Falcon Data Replicator (FDR) logs.",
+            "package": "pysigma-backend-crowdstrike",
+            "project-url": "https://github.com/SigmaHQ/pySigma-backend-crowdstrike",
+            "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-crowdstrike/issues/new",
             "state": "stable",
-            "pysigma-version": "~=0.11.3"
+            "pysigma-version": "~=0.11.13"
         },
         "28c68c9f-9162-4b33-97c9-ea4a14dc93d9": {
             "id": "ossem",
