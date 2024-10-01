@@ -232,7 +232,7 @@
             "project-url": "https://github.com/DataDog/pysigma-backend-datadog",
             "report-issue-url": "https://github.com/DataDog/pysigma-backend-datadog/issues/new",
             "state": "testing",
-            "pysigma-version": "~=0.9.10"
+            "pysigma-version": "~=0.11.14"
         },
         "ec5311a2-914e-4745-b622-fddcc9d2af4a": {
             "id": "dictquery",
