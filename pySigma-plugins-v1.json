@@ -268,7 +268,7 @@
             "id": "panther",
             "type": "backend",
             "description": "Panther sdyaml backend",
-            "package": "git+https://github.com/panther-labs/pySigma-backend-panther.git",
+            "package": "pySigma-backend-panther",
             "project-url": "https://github.com/panther-labs/pySigma-backend-panther",
             "report-issue-url": "https://github.com/panther-labs/pySigma-backend-panther/issues/new",
             "state": "devel",
