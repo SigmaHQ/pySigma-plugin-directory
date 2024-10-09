@@ -144,7 +144,7 @@
             "id": "loki",
             "type": "backend",
             "description": "Loki backend for conversion into Loki LogQL queries (plain and ruler YAML for alerts) and pipelines with mappings for Grafana and promtail Sysmon data.",
-            "package": "git+https://github.com/grafana/pySigma-backend-loki.git",
+            "package": "pySigma-backend-loki",
             "project-url": "https://github.com/grafana/pySigma-backend-loki",
             "report-issue-url": "https://github.com/grafana/pySigma-backend-loki/issues/new",
             "state": "stable",
