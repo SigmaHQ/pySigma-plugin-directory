@@ -323,6 +323,16 @@
             "report-issue-url": "https://github.com/logpoint/pySigma-backend-logpoint/issues/new",
             "state": "stable",
             "pysigma-version": "~=0.11.13"
+        },
+        "69a79499-66b1-4f37-9f7d-4cb9f12eba3e": {
+            "id": "surrealql",
+            "type": "backend",
+            "description": "SurrealQL Backend",
+            "package": "pySigma-backend-surrealql",
+            "project-url": "https://github.com/SigmaHQ/pySigma-backend-surrealql",
+            "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-surrealql/issues/new/choose",
+            "state": "testing",
+            "pysigma-version": "~=0.11"
         }
     }
 }
