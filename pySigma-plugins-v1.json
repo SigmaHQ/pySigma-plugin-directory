@@ -277,11 +277,11 @@
         "3ec39928-13e7-47fe-baa9-9800351a2e4d" : {
             "id": "panther",
             "type": "backend",
-            "description": "Panther sdyaml backend",
+            "description": "Panther backend",
             "package": "pySigma-backend-panther",
             "project-url": "https://github.com/panther-labs/pySigma-backend-panther",
             "report-issue-url": "https://github.com/panther-labs/pySigma-backend-panther/issues/new",
-            "state": "devel",
+            "state": "stable",
             "pysigma-version": "~=0.10"
         },
         "961013dd-e94f-426f-81ad-d754bc5720fc": {
