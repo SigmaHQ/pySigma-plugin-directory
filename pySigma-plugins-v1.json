@@ -333,6 +333,16 @@
             "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-surrealql/issues/new/choose",
             "state": "testing",
             "pysigma-version": "~=0.11"
+        },
+        "2460230b-fb23-4109-9688-6e3afc67112a": {
+            "id": "golangexpr",
+            "type": "backend",
+            "description": "Golang Expr Backend",
+            "package": "pySigma-backend-golangexpr",
+            "project-url": "https://github.com/SigmaHQ/pySigma-backend-golangexpr",
+            "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-golangexpr/issues/new/choose",
+            "state": "testing",
+            "pysigma-version": "~0.11.19"
         }
     }
 }
