@@ -342,7 +342,7 @@
             "project-url": "https://github.com/SigmaHQ/pySigma-backend-golangexpr",
             "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-golangexpr/issues/new/choose",
             "state": "testing",
-            "pysigma-version": "~0.11.19"
+            "pysigma-version": "~=0.11.19"
         }
     }
 }
