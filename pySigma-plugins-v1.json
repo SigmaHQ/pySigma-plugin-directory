@@ -343,6 +343,16 @@
             "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-golangexpr/issues/new/choose",
             "state": "testing",
             "pysigma-version": "~=0.11.19"
+        },
+        "237738a3-7aca-4009-b75d-3ed3c931ef52": {
+            "id": "ocsf",
+            "type": "pipeline",
+            "description": "Mapping from generic log sources to OCSF events.",
+            "package": "pysigma-pipeline-ocsf",
+            "project-url": "https://github.com/SigmaHQ/pySigma-pipeline-ocsf",
+            "report-issue-url": "https://github.com/SigmaHQ/pySigma-pipeline-ocsf/issues/new",
+            "state": "stable",
+            "pysigma-version": "~=0.11"
         }
     }
 }
