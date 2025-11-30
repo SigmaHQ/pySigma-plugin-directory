@@ -89,10 +89,16 @@ Each of these sections is another map that maps an identifier to the plugin spec
   * *value_count_correlation_conversion*: backend supports conversion of value count correlation rules.
   * *temporal_correlation_conversion*: backend supports conversion of temporal correlation rules.
   * *ordered_temporal_correlation_conversion*: backend supports conversion of ordered temporal correlation rules.
-
-* *pysigma-version* defines the required pySigma version in [PEP 440 version
+* *pysigma-version* (deprecated) defines the required pySigma version in [PEP 440 version
   specifier](https://peps.python.org/pep-0440/#version-specifiers). This information can be used by other tools to
   verify compatibility of a plugin with their used version of pySigma.
+
+### Deprecation of pysigma-version
+
+From pySigma 1.0.1 and 0.11.24 the plugin compatibility check by default does not uses the static version information
+from the plugin directory stored in `pysigma-version`, but instead dynamically determines from the PyPI package if and
+which version is compatible with the current pySigma version. Therefore, the attribute is not required in the directory
+anymore and will be removed in version 2 of the plugin directory.
 
 ## Useful Resources
 
