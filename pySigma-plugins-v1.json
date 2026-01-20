@@ -118,7 +118,7 @@
             "project-url": "https://github.com/SigmaHQ/pySigma-backend-opensearch",
             "report-issue-url": "https://github.com/SigmaHQ/pySigma-backend-opensearch/issues/new",
             "state": "stable",
-            "pysigma-version": "~=0.10.2"
+            "pysigma-version": ">=0.10.2, <0.12.0"
         },
         "737b2daa-a89c-454c-90d4-26587b1a890f": {
             "id": "ala-socprime",
