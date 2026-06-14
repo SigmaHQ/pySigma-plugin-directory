@@ -353,6 +353,16 @@
             "report-issue-url": "https://github.com/SigmaHQ/pySigma-pipeline-ocsf/issues/new",
             "state": "stable",
             "pysigma-version": "~=0.11"
+        },
+		"cdd1dc58-d537-4176-9c3e-397ab354106e": {
+            "id": "signals",
+            "type": "backend",
+            "description": "Tanium signals backend.",
+            "package": "pySigma-backend-signals",
+            "project-url": "https://github.com/wayne-csrs/pySigma-backend-signals",
+            "report-issue-url": "https://github.com/wayne-csrs/pySigma-backend-signals/issues/new",
+            "state": "testing",
+            "pysigma-version": "~=1.0.0"
         }
     }
 }
