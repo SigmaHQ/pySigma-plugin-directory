@@ -344,6 +344,16 @@
             "state": "stable",
             "pysigma-version": "~=0.11"
         },
+        "db31f296-7c83-404b-8346-fb2b0ec43a58": {
+            "id": "sumologic",
+            "type": "backend",
+            "description": "Sumo Logic Cloud SIEM backend for converting Sigma rules to CSE detection rules",
+            "package": "pysigma-backend-sumologic",
+            "project-url": "https://github.com/SumoLogic/pySigma-backend-sumologic",
+            "report-issue-url": "https://github.com/SumoLogic/pySigma-backend-sumologic/issues/new",
+            "state": "stable",
+            "pysigma-version": "~=1.0"
+        },
 		"7c043d02-0253-40c8-8623-1acd3f06b414": {
             "id": "clickhouse",
             "type": "backend",
