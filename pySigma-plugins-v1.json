@@ -344,6 +344,16 @@
             "state": "stable",
             "pysigma-version": "~=0.11"
         },
+		"7c043d02-0253-40c8-8623-1acd3f06b414": {
+            "id": "clickhouse",
+            "type": "backend",
+            "description": "Clickhouse pysigma backend",
+            "package": "pysigma-backend-clickhouse",
+            "project-url": "https://github.com/clicksiem/pySigma-backend-clickhouse",
+            "report-issue-url": "https://github.com/clicksiem/pySigma-backend-clickhouse/issues/new",
+            "state": "testing",
+            "pysigma-version": ">=1.0.0"
+        },
 		"cdd1dc58-d537-4176-9c3e-397ab354106e": {
             "id": "signals",
             "type": "backend",
