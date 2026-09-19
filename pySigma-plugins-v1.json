@@ -373,6 +373,16 @@
             "report-issue-url": "https://github.com/wayne-csrs/pySigma-backend-signals/issues/new",
             "state": "testing",
             "pysigma-version": "~=1.0.0"
+        },
+        "15e07816-09d9-470a-a0a3-e4ce70401c54": {
+            "id": "parseable",
+            "type": "backend",
+            "description": "Parseable pysigma backend",
+            "package": "pysigma-backend-parseable",
+            "project-url": "https://github.com/parseablehq/pySigma-backend-parseable",
+            "report-issue-url": "https://github.com/parseablehq/pySigma-backend-parseable/issues/new",
+            "state": "testing",
+            "pysigma-version": ">=1.0.0"
         }
     }
 }
