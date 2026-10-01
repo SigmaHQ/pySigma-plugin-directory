@@ -150,7 +150,8 @@
             "state": "stable",
             "capabilities": [
                 "event_count_correlation_conversion",
-                "value_count_correlation_conversion"
+                "value_count_correlation_conversion",
+                "temporal_correlation_conversion"
             ],
             "pysigma-version": "~=1.0.0"
         },
